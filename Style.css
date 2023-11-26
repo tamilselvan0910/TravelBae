@@ -1,0 +1,404 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  .header {
+    background-color: #343a40;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .website-name {
+    font-weight: bold;
+    font-size: large;
+  }
+  
+  .nav-links a {
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+  }
+  .nav-links .nav-links-class{
+    color:#8f8989;
+ }
+ .nav-links .nav-links-class:hover{
+    color: white;
+ }
+  .main-section {
+    background-color: #f5f5f5;
+    min-height: calc(40vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  .welcome-section {
+    text-align: center;
+    background-color:  #f5f5f5;
+  }
+  
+  .welcome-section h1 {
+    font-weight: bold;
+    font-size: 2em;
+  }
+  
+  .welcome-section p {
+    font-size: 0.8em;
+  }
+  
+  .featured-destinations {
+    margin-top: 20px;
+  }
+  
+  .featured-destinations h2 {
+    font-weight: bold;
+  }
+  
+  .destination {
+    display: flex;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  .description {
+    margin-left: 10px;
+  }
+  
+  .description h3 {
+    font-weight: bold;
+  }
+  
+  .learn-more-btn {
+    padding: 5px 10px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+  }
+  .container {
+    text-align: center;
+  }
+  
+  .featured {
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  
+  .featured p {
+    font-weight: bold;
+  }
+  
+  .destination {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0%;
+  }
+  
+  .info {
+    padding: 8px;
+    text-align: left;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .info h3 {
+    margin-top: 0;
+  }
+  .info p {
+    margin-bottom: 10px;
+    font-weight: lighter;
+    width: fit-content;
+    white-space: nowrap;
+  }
+  
+  .learn-more {
+    display: inline-block;
+    padding: 5px 10px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 3px;
+  }
+  .learn-more:hover{
+    background-color:#0056b3 ;
+  }
+.destination-section{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+  .Discover{
+    min-height: calc(40vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .Discover-section {
+    text-align: center;
+  }
+  
+  .Discover-section h1 {
+    font-weight: bold;
+    font-size: 2em;
+  }
+  
+  .Discover-section p {
+    font-size: 1.2em;
+    font-weight: lighter;
+    color: #585858;
+  }
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .footer p {
+    margin: 0;
+  }
+  .overview{
+    text-align: right;
+    padding: 0px 200px 0px 200px;
+  }
+  .destinations-overview {
+    font-weight: bold;
+  }
+  
+  .destinations-overview p {
+    font-weight:lighter;
+    line-height: 1.5;
+  }
+  
+  .destinations-overview ul {
+    list-style-type: disc;
+    padding-left: 40px;
+    font-weight: lighter;
+  }
+  .destinations-overview ul li {
+    margin-bottom: 5px;
+  }
+  .customer-feedback {
+    font-weight: bold;
+  }
+  
+  .customer-feedback p {
+    font-weight: lighter;
+  }
+
+  .feedback blockquote {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px 0;
+  }
+  
+  .feedback blockquote p {
+    font-weight: lighter;
+    font-size: large;
+  }
+  
+  .feedback blockquote footer {
+    font-weight: bold;
+    position: relative;
+    padding-left: 20px;
+  }
+  
+  .feedback blockquote footer::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 15px;
+    height: 1px;
+    background-color: black;
+    transform: translateY(-50%);
+  }
+  
+  .destinations-overview,
+.customer-feedback {
+  text-align: left;
+}
+
+.destinations-overview h2,
+.customer-feedback strong {
+  text-align: left;
+}
+.travel-section {
+  background-color:rgb(118, 127, 103);
+  min-height: calc(40vh - 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.report-section {
+  text-align: center;
+  background-color:rgb(118, 127, 103);
+  color: white;
+}
+
+.report-section h1 {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.report-section p {
+  font-size: 1.1em;
+}
+.italy-section {
+    background-color:rgb(14, 142, 161);
+    min-height: calc(40vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  .italy-inner-section {
+    text-align: center;
+    background-color:rgb(14, 142, 161);
+    color: white;
+  }
+  
+  .italy-inner-section h1 {
+    font-weight: bold;
+    font-size: 2em;
+  }
+  
+  .italy-inner-section p {
+    font-size: 1.1em;
+  }
+
+.destination-section1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.destination1 {
+  width: 45%;
+  box-sizing: border-box;
+}
+
+.image1 {
+  text-align: center;
+}
+
+.image1 img {
+  width: 100%;
+  height: auto;
+}
+
+.info1 {
+  padding: 10px;
+  padding-left: 0px;
+  line-height: 1.5;
+  font-weight: lighter;
+  text-align: left;
+  object-fit: cover;
+}
+
+.Tokyo-section {
+  background-color:rgb(255, 179, 39);
+  min-height: calc(40vh - 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.Tokyo-inner-section {
+  text-align: center;
+  background-color:rgb(255, 179, 39);
+  color: black;
+}
+
+.Tokyo-inner-section h1 {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.Tokyo-inner-section p {
+  font-size: 1.1em;
+}
+
+.Bali-section {
+  background-color:rgb(30, 139, 30);
+  min-height: calc(40vh - 50px); 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.Bali-inner-section {
+  text-align: center;
+  background-color:rgb(30, 139, 30);
+  color: white;
+}
+
+.Bali-inner-section h1 {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.Bali-inner-section p {
+  font-size: 1.1em;
+}
+
+.Rome-section {
+  background-color:red;
+  min-height: calc(40vh - 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.Rome-inner-section {
+  text-align: center;
+  background-color:red;
+  color: white;
+}
+
+.Rome-inner-section h1 {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.Rome-inner-section p {
+  font-size: 1.1em;
+}
